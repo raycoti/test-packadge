@@ -5,7 +5,7 @@ import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
 import stateIndex from './usStates.json';
 import RaisedButton from 'material-ui/RaisedButton';
-import { countries } from './countries.json';
+import { countries } from './countries';
 import ActionGrade from 'material-ui/svg-icons/action/help-outline';
 
 import validate, { validateObject } from './validations'

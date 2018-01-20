@@ -3,10 +3,10 @@ import TextField from 'material-ui/TextField';
 import PropTypes from 'prop-types';
 import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
-import stateIndex from './usStates.json'
+import stateIndex from './usStates'
 import RaisedButton from 'material-ui/RaisedButton';
 import validate, { validateObject } from './validations'
-import { countries } from './countries.json';
+import { countries } from './countries';
 
 /**
  * Address form component, with validations
