@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import TextField from 'material-ui/TextField';
 import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
-import stateIndex from './usStates.json';
+import stateIndex from './usStates';
 import RaisedButton from 'material-ui/RaisedButton';
 import { countries } from './countries';
 import ActionGrade from 'material-ui/svg-icons/action/help-outline';
