@@ -14,7 +14,7 @@
     "precommit": "lint-staged",
     "prepublish": "npm run build",
     "review": "run-s lint test:clean test test:coverage:report",
-    "test": "jest",
+    "test": "jest lib/",
     "test:clean": "rimraf ./coverage",
     "test:watch": "jest --watch",
     "test:watchAll": "jest --watchAll",
