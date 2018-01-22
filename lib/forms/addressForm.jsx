@@ -259,7 +259,7 @@ class AddressForm extends React.Component {
 
   componentWillUnmount() {
     this.liveaddress = undefined;
-    $('.smarty-ui').remove()
+    !this.props.smartyOff && $('.smarty-ui').remove()
   }
 
   render() {
