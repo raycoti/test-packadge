@@ -1,6 +1,6 @@
 {
   "name": "@rcoti/ray-modules-test",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "testing scoped npm packadges, react components",
   "main": "build/index.js",
   "directories": {
